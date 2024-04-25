@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website With LogIn Form</title>
+     <link rel="stylesheet" href="style.css">
+     <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <nav>
+        <div class="navbar">
+            <h2>LoGo.</h2>
+
+            <div class="navOpt">
+                <span class="item">Home</span>
+                <span class="item">News & Updates</span>
+                <span class="item">Contact</span>
+                <span class="item">About Us</span>
+                <span class="item" id="account">Account</span>
+            </div>
+
+            <div>
+              <input type="search" name="search" id="search" class="sBtn" placeholder="search">
+            </div>
+        </div>
+    </nav>
+
+    <!-- Login Form -->
+       <div class="formContainer formC" id="form-container">
+          
+        <div>
+            <img src="./img/border.png" alt="borderImg" class="bImg">
+        </div>
+
+        <h2 id="title">LogIn</h2>
+
+        <form action="#" class="formBox">
+
+            <input type="text" placeholder="UserName" class="inputF">
+            
+            <input type="email" placeholder="@gmail.com" class="inputF" id="emailField">
+
+            <input type="password" placeholder="Enter Password" class="inputF">
+
+        </form>
+
+        <div class="loginBox">
+            <input type="button" value="Login" id="loginBtn">
+
+            <input type="button" value="Sign Up" class="disable" id="signupBtn">
+
+            <span>Forget Password: <a href="#">Click here</a></span>
+        </div>
+
+       </div>
+
+  </div>    
+</body>
+</html>
